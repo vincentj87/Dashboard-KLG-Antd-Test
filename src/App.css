@@ -3,37 +3,24 @@
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-
+  background-color: #f5f5f5;
+  color: #213547;
 }
-.AppHeader{
-  height: 40px;
-  display : flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 4px 30px 4px 30px;
-  font-family: poppins;
-  border-bottom: 1px solid rgba(71, 71, 71,0.15);
-
-}
-.AppFooter{
-height: 50px;
-display: flex;
-align-items: center;
-justify-content: space-around;
-/* padding: 4px 30px 4px 30px; */
-border-top: 1px solid rgba(71, 71, 71,0.15);
-}
+/* Header styles moved to AppHeader/header.css */
+/* Footer styles moved to AppFooter/footer.css */
 .SideMenuAndPageContent{
 display: flex;
 flex:1;
-
+overflow: hidden;
 }
 .SideMenu{
-  width: 180px;
-  border-right: 1px solid rgba(71, 71, 71,0.15);
-
+  width: 240px;
+  min-width: 240px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .PageContent{
 flex:1;
 padding: 16px;
+background-color: #f5f5f5;
 } 
